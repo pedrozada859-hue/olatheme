@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* BANNER */
+.banner {
+  height: 80vh;
+  background-image: url("img/Capturar.PNG"); /* TROQUE AQUI */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+
+/* CONTEÚDO */
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.content section {
+  margin-bottom: 40px;
+}
+
+.content h2 {
+  color: #b71c1c;
+  margin-bottom: 15px;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* DOAÇÕES */
+.donations {
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  background: #d32f2f;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #b71c1c;
+}
+
+.highlight {
+  background: #ff9800;
+  color: #000;
+}
+
+.highlight:hover {
+  background: #f57c00;
+}
+
+.secure {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* RODAPÉ */
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
